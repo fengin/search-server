@@ -1,5 +1,7 @@
 # Search MCP Server
 
+![image](./images/logo.png)
+
 一个基于MCP协议的搜索服务实现，提供网络搜索和本地搜索功能，Cursor和Claude Desktop能与之无缝集成。
 
 使用Python开发，支持异步处理和高并发请求，搜索调用Brave Search API。
