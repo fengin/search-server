@@ -1,5 +1,6 @@
 # Search MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@fengin/search-server)](https://smithery.ai/server/@fengin/search-server)
 ![image](./images/logo.png)
 
 一个基于MCP协议的搜索服务实现，提供网络搜索和本地搜索功能，Cursor和Claude Desktop能与之无缝集成。
@@ -63,8 +64,6 @@
    pip install httpx
    pip install 
    ```
-
-## 配置说明
 
 ### 下载源码
 
