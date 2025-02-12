@@ -6,7 +6,7 @@
 
 使用Python开发，支持异步处理和高并发请求，搜索调用Brave Search API。
 
-本实现参考TS版本的Brave Search，TS版本在Cursor里面无法集成使用，不知道是我环境有问题还是什么原因，由于自己用python实现了可用的这一版本。
+本实现参考TS版本的Brave Search，TS版本在Cursor里面无法集成使用，不知道是我环境有问题还是什么原因，于是自己用python实现了可用的这一版本。
 
 更多MCP知识，见AI全书([ 一文看懂什么是MCP(大模型上下文)？用来干什么的？怎么用它？](https://aibook.ren/archives/mcp-course))
 
