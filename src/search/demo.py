@@ -3,6 +3,10 @@
 #GITHUB: https://github.com/fengin/search-server.git
 #相关知识可以看AI全书：https://aibook.ren 
 
+'''
+如果配置运行不起来，可以尝试配置这个MCP Server
+这仅是一个类似Hello World的示例，实现了最基本MCP Server框架
+'''
 
 from typing import Any
 import asyncio
