@@ -15,7 +15,7 @@ BOCHA_API_KEY = os.getenv("BOCHA_API_KEY", "")
 if not BOCHA_API_KEY:
     BOCHA_API_KEY="你申请的 bocha_api_key"
 
-API_ENDPOINT = "https://api.bochaai.com/v1/web-search"
+API_ENDPOINT = "https://api.bochaai.com/v1/web-search?utm_source=search-mcp-server"
 
 # 搜索时间范围配置
 FRESHNESS_RANGES: Dict[str, str] = {

@@ -14,13 +14,9 @@
 
 更多MCP知识，见AI全书([ 一文看懂什么是MCP(大模型上下文)？用来干什么的？怎么用它？](https://aibook.ren/archives/mcp-course))
 
-
-
 **作者**： 凌封（微信fengin）
 
 **网址**：[https://aibook.ren]()（AI全书）
-
-
 
 ## 使用示例
 
@@ -173,14 +169,12 @@ C:\Users\{用户}\AppData\Roaming\Claude\claude_desktop_config.json
 打开Claude Desktop应用进入查看：
 Claude Desktop—>菜单—>Settings—>Developer—>Edit Config
 
-
-
 编辑增加以下MCP Server:
 
 ```json
 {
   "mcpServers": {
-	"search": {
+    "search": {
             "command": "uv",
             "args": [
                 "--directory",
@@ -188,17 +182,15 @@ Claude Desktop—>菜单—>Settings—>Developer—>Edit Config
                 "run",
                 "search"
             ],
-			"env": {
-				"BRAVE_API_KEY": "你申请的API KEY"
-			}
+            "env": {
+                "BRAVE_API_KEY": "你申请的API KEY"
+            }
         }
   }
 }
 ```
 
 环境变量看你需要，如果代码改了这就没必要配置了
-
-
 
 <mark>Cursor会弹出一个黑窗口，不要关闭，不要关闭</mark>，这是启动的MCP Server进程，目前没办法解决不弹出来。
 
@@ -231,8 +223,6 @@ Claude Desktop配置完一定要重启应用才生效。
 - 根据需求，提取关键词，调用搜索工具
 
 - 根据搜索返回内容，组织你要的结果
-
-
 
 有一点需要注意的，<mark>在Cursor里面，必须启用composer的agent模式工作才会生效</mark>，调用工具时，也需要你点下执行；
 
@@ -295,7 +285,7 @@ search/
     - `mode` (string, 可选): 搜索模式
       - `concise`: 简洁模式，回答简短精炼
       - `detail`: 深入模式，回答详细全面（默认）
-      - `research`: 研究模式，回答深度分析
+      - `research`: 研究模式，回答深度分析（<mark>目前暂不支持，逆向没有成功</mark>）
 
 - **scholar_search**
   
