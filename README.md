@@ -54,7 +54,7 @@
 ### 2.下载代码
 
 ```bash
-git clone -b 1.1 https://github.com/fengin/search-server.git
+git clone https://github.com/fengin/search-server.git
 ```
 
 ### 3. 启用你要的搜索引擎
