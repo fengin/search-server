@@ -51,6 +51,17 @@
 - cursor >=0.45.10 (低于该版本mcp server配置老是连不上)
 - 科学上网（仅使用Brave Search需要）
 
+#### 1.1 安装浏览器驱动(仅Metaso需要)
+
+```
+# 安装Playwright框架
+pip install playwright>=1.35.0
+# 安装浏览器驱动,仅安装chromium
+playwright install chromium
+```
+
+
+
 ### 2.下载代码
 
 ```bash
@@ -211,6 +222,12 @@ Claude Desktop配置完一定要重启应用才生效。
 4. 把黑窗口关闭了，再次开启需要重启Cursor
 
 5. Cursor版本太旧
+
+6. 运行时报以下错，原因是没有安装chromium，解决办法见环境准备1.1章节
+   
+   ```shell
+   错误:搜索执行错误:BrowserType.launch persistent context:Executable doesn't exist atC:\Users\fengi\AppDatalLocal\ms-playwright\chromium headless shell-1155\chrome-winlheadless shell.exe
+   ```
 
 ### 6. 使用
 
